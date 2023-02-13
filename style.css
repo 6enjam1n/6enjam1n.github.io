@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: antiquewhite;
+}
+
+.card{
+	width: 800px;
+
+	border: 2px solid #000;
+	border-radius: 5px;
+
+	margin: 15px auto;
+	padding: 15px;
+}
+
+.myName, .subTitle{
+	display: inline-block;
+	width: 50%;
+	margin-left: 50%;
+}
+
+.myName{
+	font-size: 35px;
+	text-align: center;
+}
+
+.subTitle{
+	font-size: 21px;
+	text-align: center;
+	border-bottom: 3px solid #8a8787;
+}
+
+.card-photo{
+	display: inline-block;
+	position: relative;
+	width: 40%;
+	margin-left: 15px;
+	margin-top: -11%;
+
+	border-radius: 10px;
+
+	box-shadow: 5px 5px 10px #3a3939 ;
+}
+
+.info{
+	display: inline-block;
+	width: 350px;
+	position: absolute;
+	margin-left: 6%;
+	margin-top: 2%;
+
+	line-height: 1.5;
+	font-size: 17px;
+}
+
+.boldText{
+	font-weight: 700;
+}
+
+.italicText{
+	font-style: italic;
+}
+
+.info-title{
+	font-size:20px;
+	font-weight: 700;
+	text-align: center;
+	background-color: aquamarine;
+	margin: 20px 0 10px;
+	
+	border-radius: 3px;
+}
+
+.lang{
+	padding-left: 10px;
+}
+
